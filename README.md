@@ -1,2 +1,2 @@
-# CodeReferences
-Used to store code references.
+# References
+Used to store code references and other notes.
