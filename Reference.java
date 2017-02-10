@@ -1,6 +1,6 @@
 // Array to Set
-Set<T> mySet = new HashSet<T>(Arrays.asList(someArray));
-
+Set<Integer> set = Arrays.stream(nums).boxed().collect(Collectors.toSet());
+Set<String> strSet = Arrays.stream(strArray).collect(Collectors.toSet());
 
 
 /* A problem from codeforces:
