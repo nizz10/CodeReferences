@@ -1,3 +1,28 @@
+############# Command line argument parser
+argument_parser = argparse.ArgumentParser("Script. ")
+argument_parser.add_argument('-m', '--model', help='help message', required=True)
+args = argument_parser.parse_args()
+
+model_dir = args.model
+
+##############
+array = [1, 2, 3, 4, 5]
+s = "\n".join([str(x) for x in array]) # Separate the array value with "\n" and output a string
+print(s)
+
+##############
+str = "Hello World!\n"
+str = str.rstrip("\n") 	# To get rid of \n
+str = str.split("\n")
+
+############## enumerate to have index and values at the same time
+dict = {'a':1, 'b':2, 'c':3}
+list = ['a', 'b', 'c']
+for index, key in enumerate(dict.keys()):
+	print(index, key)
+for index, key in enumerate(list):
+	print(index, key)
+
 ############# Looping through multiple lists
 a = ['a', 'b', 'c']
 b = [1, 2, 3]
