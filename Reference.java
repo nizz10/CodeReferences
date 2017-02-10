@@ -1,3 +1,8 @@
+// Array to Set
+Set<T> mySet = new HashSet<T>(Arrays.asList(someArray));
+
+
+
 /* A problem from codeforces:
 For a positive integer n let's define a function f:
 
