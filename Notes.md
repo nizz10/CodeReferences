@@ -1,3 +1,7 @@
+# HashSet vs. TreeSet vs. LinkedListSet (Java)
+* [HashSet vs. TreeSet vs. LinkedListSet](http://www.programcreek.com/2013/03/hashset-vs-treeset-vs-linkedhashset/)
+
+
 # Bit Manipulation
 ## To get the negative representation for a positive number
 * invert all bits then add one for two's complement.
