@@ -1,4 +1,7 @@
 # HashSet vs. TreeSet vs. LinkedListSet (Java)
+HashSet: not ordered, O(1)
+TreeSet: ordered, need comparable interface, O(log(n))  
+LinkedListSet: ordered based on insertioin, O(1)
 * [HashSet vs. TreeSet vs. LinkedListSet](http://www.programcreek.com/2013/03/hashset-vs-treeset-vs-linkedhashset/)
 
 
